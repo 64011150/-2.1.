@@ -6,6 +6,7 @@ int main() {
 	scanf_s("%f", &b);
 	float c;
 	c = a / b / b;
+	printf("%f\n", c);
 	if (c > 30)
 		printf("Obese");
 	if (29.9 >= c && c >= 25)
